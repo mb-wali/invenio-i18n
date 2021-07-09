@@ -19,8 +19,9 @@ history = open('CHANGES.rst').read()
 tests_require = [
     'invenio-accounts[sqlite]>=1.3.0',
     'invenio-assets>=1.2.0',
-    'invenio-db>=1.0.9',
-    'pytest-invenio>=1.4.2',
+    'invenio-db>=1.0.8',
+    'pytest-invenio>=1.4.0',
+    'invenio-base>=1.2.4',
 ]
 
 extras_require = {
