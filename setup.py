@@ -25,7 +25,7 @@ tests_require = [
 
 extras_require = {
     'docs': [
-        'Sphinx>=3',
+        'Sphinx>=3.3.1,<3.4',
     ],
     'tests': tests_require,
 }
